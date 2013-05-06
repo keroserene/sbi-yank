@@ -17,7 +17,6 @@ $('body').append(
     '<ul style="">' +
     $.map(urls, function(url, i) {
       return '<li><a href="' + url + '" target="_blank">' + url + '</a></li>';
-      // return '<li>' + url + '</li>';
     }).join('') +
     '</ul></div>'
     );
