@@ -1,3 +1,6 @@
+// Search-By-Image automatic result URL yanking
+// 2013-05-06
+// ~keroserene
 {
   "name": "sbi-yank",
   "description": "Search-By-Image automatic URL yankatron.",
