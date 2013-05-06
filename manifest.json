@@ -1,0 +1,27 @@
+{
+  "name": "sbi-yank",
+  "description": "Search-By-Image automatic URL yankatron.",
+  "version": "0.1",
+
+  "manifest_version": 2,
+  "icons": {
+    "16": "sms.png",
+    "48": "sms.png",
+    "128": "sms.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "https://*/*"
+  ],
+
+  "web_accessible_resources": [
+    "yank.js"
+  ]
+}
